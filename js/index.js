@@ -1,12 +1,15 @@
 const navButtons = document.querySelectorAll('a');
 navButtons.forEach((elem)=>{
     elem.addEventListener('mouseover', function(){
-        elem.style.backgroundColor = "red"
+        event.preventDefault();
+        elem.style.backgroundColor = "red";
+
         
     })
 })
 navButtons.forEach((elem) =>{
     elem.addEventListener('dblclick', function(){
+        event.preventDefault();
         elem.style.backgroundColor = "green"
     })
 })
@@ -25,6 +28,7 @@ const mainHead = document.querySelector('h2');
 document.addEventListener('keydown', function(){
     mainHead.style.fontSize = '10rem';
     mainHead.style.color = 'purple';
+    mainHead.preventDefault();
     
 })
 
