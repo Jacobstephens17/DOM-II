@@ -11,7 +11,7 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 **Follow these steps to set up and work on your project:**
 
 * [1] Create a forked copy of this project.
-* [ ] Add your team lead as collaborator on Github.
+* [1] Add your team lead as collaborator on Github.
 * [1] Clone your OWN version of the repository (Not Lambda's by mistake!).
 * [1] Create a new branch: git checkout -b `<firstName-lastName>`.
 * [1] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
