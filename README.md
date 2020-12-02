@@ -29,9 +29,9 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 * [ ] Using your [index.js file](js/index.js), create [event listeners](https://developer.mozilla.org/en-US/docs/Web/Events) of at least 10 _different_ types. You must Use your creativity to make the Fun Bus site more interactive. For example you could change colors, animate objects, remove objects, etc. Here are some event types you could try to use:
   * `mouseover` 1
   * `keydown` 1 
-  * `wheel`
-  * `load`
-  * `focus``
+  * `wheel` 1
+  * `load` 1
+  * `focus`
   * `resize`
   * `scroll` 1
   * `select` 

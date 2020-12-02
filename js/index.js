@@ -39,4 +39,26 @@ const pageBackgr = document.querySelector('body');
 
 window.addEventListener('wheel', function(){
     pageBackgr.style.backgroundColor = 'black';
+    pageBackgr.style.color = 'white';
 })
+
+
+window.addEventListener('load', function(){
+    mainHead.style.letterSpacing = '3rem'
+
+})
+
+const butt = document.querySelector('.btn');
+
+window.addEventListener('focus', function(){
+    butt.style.backgroundColor = 'green'
+})
+
+
+const tipTopH = document.querySelector('h1');
+
+window.addEventListener('resize', function(){
+    tipTopH.style.color = 'red'
+})
+
+
